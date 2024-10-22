@@ -7,8 +7,11 @@
 vim.opt.tabstop = 4        -- Number of spaces that a <Tab> in the file counts for
 vim.opt.shiftwidth = 4     -- Number of spaces to 
 lvim.plugins = {
-  "EdenEast/nightfox.nvim",
-  "github/copilot.vim"
+    "EdenEast/nightfox.nvim",
+    "github/copilot.vim",
+    "nvim-lua/plenary.nvim",
+    "ThePrimeagen/harpoon"
 }
 vim.opt.relativenumber = true
 lvim.colorscheme = "carbonfox"
+require("config")
