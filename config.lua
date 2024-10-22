@@ -4,8 +4,11 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 --
+vim.opt.tabstop = 4        -- Number of spaces that a <Tab> in the file counts for
+vim.opt.shiftwidth = 4     -- Number of spaces to 
 lvim.plugins = {
-  "EdenEast/nightfox.nvim"
+  "EdenEast/nightfox.nvim",
+  "github/copilot.vim"
 }
 vim.opt.relativenumber = true
 lvim.colorscheme = "carbonfox"
