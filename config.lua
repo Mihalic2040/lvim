@@ -10,7 +10,9 @@ lvim.plugins = {
     "EdenEast/nightfox.nvim",
     "github/copilot.vim",
     "nvim-lua/plenary.nvim",
-    "ThePrimeagen/harpoon"
+    "ThePrimeagen/harpoon",
+    "ThePrimeagen/vim-be-good",
+    "smithbm2316/centerpad.nvim",
 }
 vim.opt.relativenumber = true
 lvim.colorscheme = "carbonfox"
